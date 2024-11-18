@@ -1,0 +1,28 @@
+/* 字體 */
+.font {
+  font-family: 'LXGW WenKai TC', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* 選項、頁數選中樣式 */
+.page-item.active .page-link, 
+.dropdown-item.active,
+.dropdown-item:active {
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+/* 圖示 */
+i.fa-thumbtack {
+  color: #c51616;
+  --fa-rotate-angle: 30deg;
+}
+
+i.fa-venus {
+  color: pink;
+}
+
+i.fa-mars {
+  color: lightblue;
+}
